@@ -52,35 +52,36 @@
 ////    self.addButton.size = CGSizeMake(self.addButton.currentBackgroundImage.size.width, self.addButton.currentBackgroundImage.size.height);
 //    self.addButton.size = CGSizeMake(AddButtonWidth, AddButtonWidth);
     
-    self.addButton.frame = CGRectMake((ScreenWidth-AddButtonWidth)/2, -14, AddButtonWidth+5, AddButtonWidth);
+    self.addButton.frame = CGRectMake((SCREEN_WIDTH-AddButtonWidth)/2, -14, AddButtonWidth+5, AddButtonWidth);
     
-    // 设置“添加”label的位置
-    self.addLabel.centerX = self.addButton.centerX;
-    self.addLabel.centerY = CGRectGetMaxY(self.addButton.frame) + 0.5 * AddButtonMargin + 0.5;
-    
-    self.addLabel.frame = CGRectMake((ScreenWidth-AddButtonWidth)/2, 50-21, AddButtonWidth, 21);
-    [self addSubview:self.addLabel];
-    
-    int btnIndex = 0;
-    // 系统自带的按钮类型是UITabBarButton，找出这些类型的按钮
-    // 然后重新排布位置，空出中间的位置
-    Class class = NSClassFromString(@"UITabBarButton");
-    for (UIView *btn in self.subviews) {
-        if ([btn isKindOfClass:class]) {
-            // 每一个按钮的宽度等于TabBar的三分之一
-            btn.width = self.width/3;
-            [btn setFrame:CGRectMake(btn.width * btnIndex, btn.frame.origin.y, btn.width, btn.height)];
-            btnIndex++;
-            // 如果索引是1（即“+”按钮），直接让索引+1
-            if (btnIndex == 1) {
-                btnIndex++;
-            }
-        }
-    }
-    //将“+”按钮放到视图层次最前面
-    [self bringSubviewToFront:self.addButton];
-    
-    self.topLine.frame = CGRectMake(0, 0, ScreenWidth, 1);
+//    // 设置“添加”label的位置
+//    self.addLabel.centerX = self.addButton.centerX;
+//    self.addLabel.centerY = CGRectGetMaxY(self.addButton.frame) + 0.5 * AddButtonMargin + 0.5;
+//    
+//    self.addLabel.frame = CGRectMake((SCREEN_WIDTH-AddButtonWidth)/2, 50-21, AddButtonWidth, 21);
+//    [self addSubview:self.addLabel];
+//    
+//    int btnIndex = 0;
+//    // 系统自带的按钮类型是UITabBarButton，找出这些类型的按钮
+//    // 然后重新排布位置，空出中间的位置
+//    Class class = NSClassFromString(@"UITabBarButton");
+//    for (UIView *btn in self.subviews) {
+//        if ([btn isKindOfClass:class]) {
+//            // 每一个按钮的宽度等于TabBar的三分之一
+//            
+//            btn.frame.size.width = self.frame.size.width/3;
+//            [btn setFrame:CGRectMake(btn.frame.size.width * btnIndex, btn.frame.origin.y, btn.frame.size.width, btn.frame.size.width)];
+//            btnIndex++;
+//            // 如果索引是1（即“+”按钮），直接让索引+1
+//            if (btnIndex == 1) {
+//                btnIndex++;
+//            }
+//        }
+//    }
+//    //将“+”按钮放到视图层次最前面
+//    [self bringSubviewToFront:self.addButton];
+//    
+//    self.topLine.frame = CGRectMake(0, 0, SCREEN_WIDTH, 1);
 }
 
 - (void)setUpChildView {

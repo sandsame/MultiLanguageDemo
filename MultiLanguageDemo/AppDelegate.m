@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:SCREEN_BOUNDS];
+    
+    [self setUpRootVC];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -47,5 +52,9 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
+#pragma mark --- main
+- (void)setUpRootVC {
+    MainTabBarController *mainTabBarVC = [[MainTabBarController alloc] init];
+    self.window.rootViewController = mainTabBarVC;
+}
 @end

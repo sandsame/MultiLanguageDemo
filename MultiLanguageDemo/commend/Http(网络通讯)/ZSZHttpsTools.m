@@ -8,7 +8,6 @@
 
 #import "ZSZHttpsTools.h"
 #import "AFNetworking.h"
-#import "LoginViewController.h"
 #import "ZSZNavigationController.h"
 @interface AFHTTPClient : AFHTTPSessionManager
 
@@ -55,12 +54,7 @@ static AFHTTPClient *client = nil;
         NSString *receiveStr = [[NSString alloc]initWithData:responseObject encoding:NSUTF8StringEncoding];
         NSDictionary *dict = [self dictionaryWithJsonString:receiveStr];
         if (dict[@"error"][@"code"] != nil && [dict[@"error"][@"code"] isEqualToString:@"-32604"]) {
-            // 把login标志置为NO
-            [DataBaseManager shareDataManager].isLogin = NO;
-            [SimpleAlertView showAlert:@"请重新登录账号~"];
-//            LoginViewController *loginVC = [[LoginViewController alloc] init];
-//            ZSZNavigationController *nav = [[ZSZNavigationController alloc] initWithRootViewController:loginVC];
-//            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
+           
         }
         success(dict);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
@@ -77,11 +71,7 @@ static AFHTTPClient *client = nil;
         NSString *receiveStr = [[NSString alloc]initWithData:responseObject encoding:NSUTF8StringEncoding];
         NSDictionary *dict = [self dictionaryWithJsonString:receiveStr];
         if (dict[@"error"][@"code"] != nil && [[dict[@"error"][@"code"] description] isEqualToString:@"-32604"]) {
-            // 把login标志置为NO
-            [DataBaseManager shareDataManager].isLogin = NO;
-//            LoginViewController *loginVC = [[LoginViewController alloc] init];
-//            ZSZNavigationController *nav = [[ZSZNavigationController alloc] initWithRootViewController:loginVC];
-//            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
+           
         }
         success(dict);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
@@ -104,24 +94,6 @@ static AFHTTPClient *client = nil;
     
 }
 
-//+ (void)downloadWithPath:(NSString *)path andRequest:(NSURLRequest *)request success:(HttpSuccessBlock)success failure:(HttpFailedBlock)failure progress:(HttpDownloadProgressBlock)progress {
-//
-//    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-//    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
-//
-////    NSURL *URL = [NSURL URLWithString:@"http://example.com/download.zip"];
-////    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-//
-//
-//    NSURLSessionDownloadTask *downloadTask = [manager downloadTaskWithRequest:request progress:nil destination:^NSURL *(NSURL *targetPath, NSURLResponse *response) {
-//        NSURL *documentsDirectoryURL = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil];
-//        return [documentsDirectoryURL URLByAppendingPathComponent:[response suggestedFilename]];
-//    } completionHandler:^(NSURLResponse *response, NSURL *filePath, NSError *error) {
-//        NSLog(@"File downloaded to: %@", filePath);
-//    }];
-//    [downloadTask resume];
-//
-//}
 
 
 + (void)downloadTaskWithRequest:(NSURLRequest *)request andProgress:(HttpUploadProgressBlock)progress destination:(HttpDownloadDestinationBlock)destination handle:(HttpDownloadZSZHandleBlock)myHandle {
