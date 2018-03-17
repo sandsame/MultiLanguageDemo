@@ -16,4 +16,7 @@
 #import "Macro.h"
 #import "UIColor+Hex.h"
 #import "UIColor+colorToImage.h"
+#import <BmobSDK/Bmob.h>
+#import "MJRefresh.h"
+#import "ZSZHttpsTools.h"
 #endif /* PrefixHeader_pch */

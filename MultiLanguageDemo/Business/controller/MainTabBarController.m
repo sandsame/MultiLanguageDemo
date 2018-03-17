@@ -9,7 +9,9 @@
 #import "MainTabBarController.h"
 #import "MineVC.h"
 #import "HomePageVC.h"
+#import "OpenHistoryManVC.h"
 #import "ZSZNavigationController.h"
+
 @interface MainTabBarController ()
 
 @end
@@ -19,12 +21,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpChildView];
+    
+    
+    
 }
 
 - (void)setUpChildView  {
     HomePageVC *homePageVC = [[HomePageVC alloc] init];
     NSString *homePageTitle = NSLocalizedString(@"tabbar_homePage", nil);
     [self addChildController:homePageVC title:homePageTitle imageName:@"首页1" selectedImageName:@"首页" navVc:[ZSZNavigationController class]];
+    
+    OpenHistoryManVC *openHisVC = [[OpenHistoryManVC alloc] init];
+    NSString *openHisTitle = NSLocalizedString(@"tabbar_homePage", nil);
+    [self addChildController:openHisVC title:openHisTitle imageName:@"首页1" selectedImageName:@"首页" navVc:[ZSZNavigationController class]];
+    
 
     NSString *mineTitle = NSLocalizedString(@"tabbar_mine", nil);
     MineVC *mineVC = [[MineVC alloc] init];

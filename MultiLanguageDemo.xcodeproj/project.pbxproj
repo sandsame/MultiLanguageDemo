@@ -127,6 +127,25 @@
 		17D40B25205A4D0900E5730B /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B24205A4D0900E5730B /* MainTabBarController.m */; };
 		17D40B30205A4E8100E5730B /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B2F205A4E8100E5730B /* HomePageVC.m */; };
 		17D40B33205A4F1200E5730B /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B32205A4F1200E5730B /* MineVC.m */; };
+		17D40B35205C0D1C00E5730B /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B34205C0D1B00E5730B /* BmobSDK.framework */; };
+		17D40B37205C0D7000E5730B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B36205C0D7000E5730B /* CoreLocation.framework */; };
+		17D40B39205C0D7A00E5730B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B38205C0D7900E5730B /* Security.framework */; };
+		17D40B3B205C0D8600E5730B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B3A205C0D8600E5730B /* CoreGraphics.framework */; };
+		17D40B3D205C0D9000E5730B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B3C205C0D9000E5730B /* MobileCoreServices.framework */; };
+		17D40B3F205C0D9A00E5730B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B3E205C0D9900E5730B /* CFNetwork.framework */; };
+		17D40B41205C0DA100E5730B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B40205C0DA100E5730B /* CoreTelephony.framework */; };
+		17D40B43205C0DA900E5730B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B42205C0DA900E5730B /* SystemConfiguration.framework */; };
+		17D40B45205C0DB300E5730B /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B44205C0DB200E5730B /* libz.1.2.5.tbd */; };
+		17D40B47205C0DC300E5730B /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B46205C0DC300E5730B /* libicucore.tbd */; };
+		17D40B49205C0DD400E5730B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D40B48205C0DD400E5730B /* Photos.framework */; };
+		17D40B4C205C179500E5730B /* HPListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B4B205C179500E5730B /* HPListModel.m */; };
+		17D40B4F205C194300E5730B /* HPListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B4E205C194300E5730B /* HPListCell.m */; };
+		17D40B52205C241E00E5730B /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B51205C241E00E5730B /* DetailVC.m */; };
+		17D40B59205CA9F400E5730B /* OpenHistoryManVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B58205CA9F400E5730B /* OpenHistoryManVC.m */; };
+		17D40B5C205CB5D500E5730B /* OpenHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B5B205CB5D500E5730B /* OpenHistoryCell.m */; };
+		17D40B5F205CBC4500E5730B /* HistoryDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B5E205CBC4500E5730B /* HistoryDetailVC.m */; };
+		17D40B62205CC17C00E5730B /* HistoryListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B61205CC17C00E5730B /* HistoryListModel.m */; };
+		17D40B65205CE8A000E5730B /* HisNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D40B64205CE8A000E5730B /* HisNumberCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -382,6 +401,33 @@
 		17D40B2F205A4E8100E5730B /* HomePageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
 		17D40B31205A4F1100E5730B /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
 		17D40B32205A4F1200E5730B /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		17D40B34205C0D1B00E5730B /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		17D40B36205C0D7000E5730B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		17D40B38205C0D7900E5730B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		17D40B3A205C0D8600E5730B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17D40B3C205C0D9000E5730B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		17D40B3E205C0D9900E5730B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		17D40B40205C0DA100E5730B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		17D40B42205C0DA900E5730B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		17D40B44205C0DB200E5730B /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		17D40B46205C0DC300E5730B /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		17D40B48205C0DD400E5730B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		17D40B4A205C179500E5730B /* HPListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPListModel.h; sourceTree = "<group>"; };
+		17D40B4B205C179500E5730B /* HPListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPListModel.m; sourceTree = "<group>"; };
+		17D40B4D205C194300E5730B /* HPListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPListCell.h; sourceTree = "<group>"; };
+		17D40B4E205C194300E5730B /* HPListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPListCell.m; sourceTree = "<group>"; };
+		17D40B50205C241E00E5730B /* DetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		17D40B51205C241E00E5730B /* DetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		17D40B57205CA9F400E5730B /* OpenHistoryManVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenHistoryManVC.h; sourceTree = "<group>"; };
+		17D40B58205CA9F400E5730B /* OpenHistoryManVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenHistoryManVC.m; sourceTree = "<group>"; };
+		17D40B5A205CB5D500E5730B /* OpenHistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenHistoryCell.h; sourceTree = "<group>"; };
+		17D40B5B205CB5D500E5730B /* OpenHistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenHistoryCell.m; sourceTree = "<group>"; };
+		17D40B5D205CBC4500E5730B /* HistoryDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDetailVC.h; sourceTree = "<group>"; };
+		17D40B5E205CBC4500E5730B /* HistoryDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDetailVC.m; sourceTree = "<group>"; };
+		17D40B60205CC17C00E5730B /* HistoryListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryListModel.h; sourceTree = "<group>"; };
+		17D40B61205CC17C00E5730B /* HistoryListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryListModel.m; sourceTree = "<group>"; };
+		17D40B63205CE8A000E5730B /* HisNumberCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HisNumberCell.h; sourceTree = "<group>"; };
+		17D40B64205CE8A000E5730B /* HisNumberCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HisNumberCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,11 +435,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D40B49205C0DD400E5730B /* Photos.framework in Frameworks */,
+				17D40B47205C0DC300E5730B /* libicucore.tbd in Frameworks */,
+				17D40B45205C0DB300E5730B /* libz.1.2.5.tbd in Frameworks */,
+				17D40B43205C0DA900E5730B /* SystemConfiguration.framework in Frameworks */,
+				17D40B41205C0DA100E5730B /* CoreTelephony.framework in Frameworks */,
+				17D40B3F205C0D9A00E5730B /* CFNetwork.framework in Frameworks */,
+				17D40B3D205C0D9000E5730B /* MobileCoreServices.framework in Frameworks */,
+				17D40B3B205C0D8600E5730B /* CoreGraphics.framework in Frameworks */,
+				17D40B39205C0D7A00E5730B /* Security.framework in Frameworks */,
+				17D40B37205C0D7000E5730B /* CoreLocation.framework in Frameworks */,
 				17D409E7205A449200E5730B /* libz.tbd in Frameworks */,
 				17D409E5205A448B00E5730B /* libbz2.tbd in Frameworks */,
 				17D409E3205A448000E5730B /* libiconv.tbd in Frameworks */,
 				17D409E1205A447400E5730B /* libresolv.tbd in Frameworks */,
 				17D409DF205A444C00E5730B /* OpenAL.framework in Frameworks */,
+				17D40B35205C0D1C00E5730B /* BmobSDK.framework in Frameworks */,
 				17D409D9205A442400E5730B /* OpenGLES.framework in Frameworks */,
 				17D409DD205A443800E5730B /* MediaPlayer.framework in Frameworks */,
 				17D409DB205A442C00E5730B /* AVFoundation.framework in Frameworks */,
@@ -425,6 +482,7 @@
 		17D406C6205A0D4C00E5730B = {
 			isa = PBXGroup;
 			children = (
+				17D40B34205C0D1B00E5730B /* BmobSDK.framework */,
 				17D406D1205A0D4D00E5730B /* MultiLanguageDemo */,
 				17D406EA205A0D4D00E5730B /* MultiLanguageDemoTests */,
 				17D406F5205A0D4D00E5730B /* MultiLanguageDemoUITests */,
@@ -487,6 +545,16 @@
 		17D409CD205A43DE00E5730B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17D40B48205C0DD400E5730B /* Photos.framework */,
+				17D40B46205C0DC300E5730B /* libicucore.tbd */,
+				17D40B44205C0DB200E5730B /* libz.1.2.5.tbd */,
+				17D40B42205C0DA900E5730B /* SystemConfiguration.framework */,
+				17D40B40205C0DA100E5730B /* CoreTelephony.framework */,
+				17D40B3E205C0D9900E5730B /* CFNetwork.framework */,
+				17D40B3C205C0D9000E5730B /* MobileCoreServices.framework */,
+				17D40B3A205C0D8600E5730B /* CoreGraphics.framework */,
+				17D40B38205C0D7900E5730B /* Security.framework */,
+				17D40B36205C0D7000E5730B /* CoreLocation.framework */,
 				17D409E6205A449200E5730B /* libz.tbd */,
 				17D409E4205A448A00E5730B /* libbz2.tbd */,
 				17D409E2205A448000E5730B /* libiconv.tbd */,
@@ -881,6 +949,7 @@
 		17D40B1F205A4CE600E5730B /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				17D40B53205CA91200E5730B /* OpenHistory */,
 				17D40B26205A4E6100E5730B /* HomePage */,
 				17D40B2A205A4E6100E5730B /* Mine */,
 				17D40B20205A4CE600E5730B /* controller */,
@@ -912,6 +981,8 @@
 			children = (
 				17D40B2E205A4E8100E5730B /* HomePageVC.h */,
 				17D40B2F205A4E8100E5730B /* HomePageVC.m */,
+				17D40B50205C241E00E5730B /* DetailVC.h */,
+				17D40B51205C241E00E5730B /* DetailVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -919,6 +990,8 @@
 		17D40B28205A4E6100E5730B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				17D40B4A205C179500E5730B /* HPListModel.h */,
+				17D40B4B205C179500E5730B /* HPListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -926,6 +999,8 @@
 		17D40B29205A4E6100E5730B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				17D40B4D205C194300E5730B /* HPListCell.h */,
+				17D40B4E205C194300E5730B /* HPListCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -961,6 +1036,47 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		17D40B53205CA91200E5730B /* OpenHistory */ = {
+			isa = PBXGroup;
+			children = (
+				17D40B54205CA91200E5730B /* controller */,
+				17D40B55205CA91200E5730B /* model */,
+				17D40B56205CA91200E5730B /* view */,
+			);
+			path = OpenHistory;
+			sourceTree = "<group>";
+		};
+		17D40B54205CA91200E5730B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				17D40B57205CA9F400E5730B /* OpenHistoryManVC.h */,
+				17D40B58205CA9F400E5730B /* OpenHistoryManVC.m */,
+				17D40B5D205CBC4500E5730B /* HistoryDetailVC.h */,
+				17D40B5E205CBC4500E5730B /* HistoryDetailVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		17D40B55205CA91200E5730B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				17D40B60205CC17C00E5730B /* HistoryListModel.h */,
+				17D40B61205CC17C00E5730B /* HistoryListModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		17D40B56205CA91200E5730B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				17D40B5A205CB5D500E5730B /* OpenHistoryCell.h */,
+				17D40B5B205CB5D500E5730B /* OpenHistoryCell.m */,
+				17D40B63205CE8A000E5730B /* HisNumberCell.h */,
+				17D40B64205CE8A000E5730B /* HisNumberCell.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1107,16 +1223,19 @@
 			files = (
 				17D40A18205A48A300E5730B /* AFURLSessionManager.m in Sources */,
 				17D40A77205A48AF00E5730B /* MJRefreshBackGifFooter.m in Sources */,
+				17D40B62205CC17C00E5730B /* HistoryListModel.m in Sources */,
 				17D40A40205A48A900E5730B /* MASViewAttribute.m in Sources */,
 				17D40AAC205A48B300E5730B /* SDWebImageDownloaderOperation.m in Sources */,
 				17D40B07205A4A5D00E5730B /* CustomSegment.m in Sources */,
 				17D40A0D205A48A300E5730B /* UIProgressView+AFNetworking.m in Sources */,
 				17D40B10205A4A5D00E5730B /* ZSZSearchBar.m in Sources */,
 				17D406D7205A0D4D00E5730B /* ViewController.m in Sources */,
+				17D40B59205CA9F400E5730B /* OpenHistoryManVC.m in Sources */,
 				17D40B08205A4A5D00E5730B /* ZSZCollectionView.m in Sources */,
 				17D40A84205A48AF00E5730B /* MJRefreshComponent.m in Sources */,
 				17D40B25205A4D0900E5730B /* MainTabBarController.m in Sources */,
 				17D40A13205A48A300E5730B /* UIWebView+AFNetworking.m in Sources */,
+				17D40B52205C241E00E5730B /* DetailVC.m in Sources */,
 				17D40AA4205A48B300E5730B /* SDWebImageDecoder.m in Sources */,
 				17D40A78205A48AF00E5730B /* MJRefreshBackStateFooter.m in Sources */,
 				17D40A0F205A48A300E5730B /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -1164,6 +1283,8 @@
 				17D40A1B205A48A300E5730B /* AFSecurityPolicy.m in Sources */,
 				17D40B1A205A4A5D00E5730B /* ZSZNavigationController.m in Sources */,
 				17D40B0C205A4A5D00E5730B /* UIGestureRecognizer+YZHState.m in Sources */,
+				17D40B4F205C194300E5730B /* HPListCell.m in Sources */,
+				17D40B5F205CBC4500E5730B /* HistoryDetailVC.m in Sources */,
 				17D40A10205A48A300E5730B /* UIImageView+AFNetworking.m in Sources */,
 				17D40B00205A4A5D00E5730B /* UITableView+ZSZPlaceholder.m in Sources */,
 				17D40A7D205A48AF00E5730B /* MJRefreshNormalHeader.m in Sources */,
@@ -1173,6 +1294,7 @@
 				17D40AA3205A48B300E5730B /* SDWebImageManager.m in Sources */,
 				17D40A12205A48A300E5730B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				17D40A11205A48A300E5730B /* UIButton+AFNetworking.m in Sources */,
+				17D40B4C205C179500E5730B /* HPListModel.m in Sources */,
 				17D40AAA205A48B300E5730B /* SDWebImagePrefetcher.m in Sources */,
 				17D40B06205A4A5D00E5730B /* UIView+UIGestureRecognizer.m in Sources */,
 				17D40B0D205A4A5D00E5730B /* SimpleAlertView.m in Sources */,
@@ -1186,7 +1308,9 @@
 				17D40A3C205A48A900E5730B /* NSArray+MASAdditions.m in Sources */,
 				17D40A75205A48AF00E5730B /* NSBundle+MJRefresh.m in Sources */,
 				17D40A7C205A48AF00E5730B /* MJRefreshAutoNormalFooter.m in Sources */,
+				17D40B5C205CB5D500E5730B /* OpenHistoryCell.m in Sources */,
 				17D406D4205A0D4D00E5730B /* AppDelegate.m in Sources */,
+				17D40B65205CE8A000E5730B /* HisNumberCell.m in Sources */,
 				17D40B05205A4A5D00E5730B /* UITableViewCell+WeakReferenceTask.m in Sources */,
 				17D40A14205A48A300E5730B /* AFAutoPurgingImageCache.m in Sources */,
 				17D40A74205A48AF00E5730B /* UIScrollView+MJExtension.m in Sources */,
@@ -1389,6 +1513,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MultiLanguageDemo/Lib(第三方)/DigitalNote",
 					"$(PROJECT_DIR)/MultiLanguageDemo/Lib(第三方)/ATK/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = MultiLanguageDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = MultiLanguageDemo/Info.plist;
@@ -1409,6 +1534,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MultiLanguageDemo/Lib(第三方)/DigitalNote",
 					"$(PROJECT_DIR)/MultiLanguageDemo/Lib(第三方)/ATK/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = MultiLanguageDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = MultiLanguageDemo/Info.plist;

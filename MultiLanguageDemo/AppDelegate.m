@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
+#import <BmobSDK/Bmob.h>
 @interface AppDelegate ()
 
 @end
@@ -22,6 +23,11 @@
     [self setUpRootVC];
     
     [self.window makeKeyAndVisible];
+    
+    
+    [Bmob registerWithAppKey:@"1f2050d66e6508aa7d521e72a85ee8c0"];
+    
+    
     return YES;
 }
 

@@ -8,4 +8,5 @@
 
 "tabbar_homePage"="Home";
 "tabbar_mine"="Me";
+"net_failure"="Network failure, drop-down refresh";
 
